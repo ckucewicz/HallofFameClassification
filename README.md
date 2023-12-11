@@ -1,7 +1,7 @@
 # HallofFameClassification
 
 ## Project Goal
-This project attempts to build a classification model to accurately predict if a MLB position player will be inducted into the Hall of Fame based on six inputs including `H` (career hits), `HR` (homeruns), `2B` (doubles), `batting_avg` (batting average), `SB` (stolen bases), and `career_all_star_games` (number of all star game appearances).
+This project builds a classification model to accurately predict if a MLB position player will be inducted into the Hall of Fame based on six inputs including `H` (career hits), `HR` (homeruns), `2B` (doubles), `batting_avg` (batting average), `SB` (stolen bases), and `career_all_star_games` (number of all star game appearances).
 
 This is a classification problem because the desired prediction ('Inducted into the Hall of Fame?') is a categorical output. The player is either inducted ('Y') or not inducted ('N'). In this project, I fit and test two different classification models (decision tree classifier and random forest classifier) and evaluate which is most accurate.
 
